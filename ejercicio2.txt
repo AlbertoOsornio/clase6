@@ -1,0 +1,13 @@
+INICIO 
+    LEER pesoActual
+    LEER pesoIdeal
+    LEER incremento
+    numSemanas = 0
+    multiplicacion = 0
+
+    MIENTRAS pesoActual<=pesoIdeal
+        pesoActual = pesoActual + incremento
+        numSemanas = numSemanas + 1
+    FIN MIENTRAS
+    ESCRIBE numSemanas
+FIN

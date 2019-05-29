@@ -1,0 +1,11 @@
+INICIO 
+    LEER tabla
+    contador = 0
+    multiplicacion = 0
+
+    MIENTRAS contador<=10
+        multiplicacion = tabla*contador
+        ESCRIBE "" + tabla + "*" + contador + "=" + multiplicacion
+        contador = contador+1
+    FIN MIENTRAS
+FIN
